@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gunnamma Malli | Software Developer & AI Student</title>
+  <meta name="description" content="Portfolio of Gunnamma Malli – Aspiring Software Engineer, AI & Data Science Student, Python Developer based in Tirupati, India." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Loader -->
+  <div class="loader" id="loader">
+    <div class="loader-text">GM.</div>
+    <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+  </div>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-text">GM<span class="logo-dot">.</span></span>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#certifications" class="nav-link">Achievements</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <canvas id="particleCanvas"></canvas>
+    <div class="hero-bg-gradient"></div>
+    <div class="hero-container">
+      <div class="hero-text-col">
+        <div class="hero-greeting">👋 Hello, I'm</div>
+        <h1 class="hero-name">Gunnamma<br /><span class="name-accent">Malli</span></h1>
+        <div class="hero-role-wrapper">
+          <span class="role-prefix">I'm a </span>
+          <span class="typing-text" id="typingText"></span>
+          <span class="cursor-blink">|</span>
+        </div>
+        <p class="hero-tagline">Building the future with code, intelligence & creativity — from Tirupati to the world.</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary"><i class="fas fa-rocket"></i> View Projects</a>
+          <a href="resume.pdf" class="btn btn-secondary" download><i class="fas fa-download"></i> Download Resume</a>
+          <a href="#contact" class="btn btn-outline"><i class="fas fa-envelope"></i> Contact Me</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://linkedin.com/in/gunnamma-malli-79021735a" target="_blank" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:gunnammamalli258@gmail.com" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          <a href="tel:+919849383197" class="social-icon" aria-label="Phone"><i class="fas fa-phone"></i></a>
+          <a href="https://github.com" target="_blank" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div class="hero-photo-col">
+        <div class="photo-wrapper">
+          <div class="orbit-ring ring1"></div>
+          <div class="orbit-ring ring2"></div>
+          <div class="orbit-ring ring3"></div>
+          <div class="hologram-ring"></div>
+          <div class="photo-frame">
+            <div class="photo-inner">
+              <img src="photo.jpeg" alt="Gunnamma Malli - Software Developer & AI Student" />
+            </div>
+            <div class="glow-circle"></div>
+          </div>
+          <div class="floating-badge badge1"><i class="fab fa-python"></i> Python</div>
+          <div class="floating-badge badge2"><i class="fas fa-brain"></i> AI/ML</div>
+          <div class="floating-badge badge3"><i class="fas fa-code"></i> Dev</div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-dot"></div>
+      <span>Scroll Down</span>
+    </div>
+  </section>
+</body>
+</html>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+        <div class="title-underline"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-card glass-card">
+          <div class="about-icon"><i class="fas fa-user-graduate"></i></div>
+          <h3>Student</h3>
+          <p>B.Tech in AI & Data Science at NBKRIST (2023–2027), with a strong CGPA of 7.5, passionate about intelligent systems.</p>
+        </div>
+        <div class="about-card glass-card">
+          <div class="about-icon"><i class="fas fa-laptop-code"></i></div>
+          <h3>Developer</h3>
+          <p>Hands-on experience in Python, Web Development, SQL, and AI-based projects with real-world applications.</p>
+        </div>
+        <div class="about-card glass-card">
+          <div class="about-icon"><i class="fas fa-lightbulb"></i></div>
+          <h3>Innovator</h3>
+          <p>Passionate about building innovative solutions leveraging AI, automation, and cutting-edge technologies.</p>
+        </div>
+      </div>
+      <div class="about-bio glass-card">
+        <div class="bio-text">
+          <p>I'm a motivated <strong>B.Tech AI & Data Science student</strong> with hands-on experience in <strong>Python, SQL, Web Development, and AI-based projects</strong>. Passionate about building innovative solutions and continuously learning emerging technologies.</p>
+          <p>Currently pursuing my degree at N.B.K.R Institute of Science and Technology, I combine academic knowledge with practical project work to create impactful software solutions. My journey from Tirupati is driven by curiosity, determination, and a vision to contribute meaningfully to the tech world.</p>
+          <div class="bio-info">
+            <div class="info-item"><i class="fas fa-map-marker-alt"></i><span>Tirupati, Andhra Pradesh, India</span></div>
+            <div class="info-item"><i class="fas fa-envelope"></i><span>gunnammamalli258@gmail.com</span></div>
+            <div class="info-item"><i class="fas fa-phone"></i><span>+91 9849383197</span></div>
+            <div class="info-item"><i class="fab fa-linkedin"></i><span>linkedin.com/in/gunnamma-malli-79021735a</span></div>
+          </div>
+        </div>
+        <div class="bio-stats">
+          <div class="stat-item"><div class="stat-num" data-target="3">0</div><div class="stat-label">Projects Built</div></div>
+          <div class="stat-item"><div class="stat-num" data-target="5">0</div><div class="stat-label">Technologies</div></div>
+          <div class="stat-item"><div class="stat-num" data-target="91">0</div><div class="stat-label">Intermediate %</div></div>
+          <div class="stat-item"><div class="stat-num" data-target="4">0</div><div class="stat-label">Years Journey</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">What I Know</span>
+        <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+        <div class="title-underline"></div>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category glass-card">
+          <div class="skill-cat-header"><i class="fas fa-paint-brush"></i><h3>Frontend</h3></div>
+          <div class="skill-bars">
+            <div class="skill-bar-item"><div class="skill-name"><span>HTML</span><span class="skill-pct">90%</span></div><div class="skill-track"><div class="skill-fill" data-width="90"></div></div></div>
+            <div class="skill-bar-item"><div class="skill-name"><span>CSS</span><span class="skill-pct">85%</span></div><div class="skill-track"><div class="skill-fill" data-width="85"></div></div></div>
+            <div class="skill-bar-item"><div class="skill-name"><span>JavaScript</span><span class="skill-pct">75%</span></div><div class="skill-track"><div class="skill-fill" data-width="75"></div></div></div>
+          </div>
+        </div>
+        <div class="skill-category glass-card">
+          <div class="skill-cat-header"><i class="fas fa-code"></i><h3>Programming</h3></div>
+          <div class="skill-bars">
+            <div class="skill-bar-item"><div class="skill-name"><span>Python</span><span class="skill-pct">88%</span></div><div class="skill-track"><div class="skill-fill" data-width="88"></div></div></div>
+            <div class="skill-bar-item"><div class="skill-name"><span>SQL</span><span class="skill-pct">80%</span></div><div class="skill-track"><div class="skill-fill" data-width="80"></div></div></div>
+            <div class="skill-bar-item"><div class="skill-name"><span>MySQL</span><span class="skill-pct">78%</span></div><div class="skill-track"><div class="skill-fill" data-width="78"></div></div></div>
+          </div>
+        </div>
+        <div class="skill-category glass-card">
+          <div class="skill-cat-header"><i class="fas fa-tools"></i><h3>Tools</h3></div>
+          <div class="skill-bars">
+            <div class="skill-bar-item"><div class="skill-name"><span>Git</span><span class="skill-pct">82%</span></div><div class="skill-track"><div class="skill-fill" data-width="82"></div></div></div>
+            <div class="skill-bar-item"><div class="skill-name"><span>GitHub</span><span class="skill-pct">80%</span></div><div class="skill-track"><div class="skill-fill" data-width="80"></div></div></div>
+            <div class="skill-bar-item"><div class="skill-name"><span>Claude AI</span><span class="skill-pct">85%</span></div><div class="skill-track"><div class="skill-fill" data-width="85"></div></div></div>
+          </div>
+        </div>
+        <div class="skill-category glass-card">
+          <div class="skill-cat-header"><i class="fas fa-brain"></i><h3>Soft Skills</h3></div>
+          <div class="skill-pills">
+            <span class="skill-pill"><i class="fas fa-puzzle-piece"></i> Problem Solving</span>
+            <span class="skill-pill"><i class="fas fa-comments"></i> Communication</span>
+            <span class="skill-pill"><i class="fas fa-sitemap"></i> Logic Building</span>
+            <span class="skill-pill"><i class="fas fa-users"></i> Team Work</span>
+            <span class="skill-pill"><i class="fas fa-clock"></i> Time Management</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">What I've Built</span>
+        <h2 class="section-title">My <span class="gradient-text">Projects</span></h2>
+        <div class="title-underline"></div>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card glass-card">
+          <div class="project-card-top">
+            <div class="project-icon"><i class="fas fa-newspaper"></i></div>
+            <div class="project-links">
+              <a href="#" class="proj-link" aria-label="View Project"><i class="fas fa-external-link-alt"></i></a>
+              <a href="#" class="proj-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">NBKRIST Live News Website</h3>
+          <p class="project-desc">A live campus news website delivering real-time content updates with a fully responsive design built for the NBKR Institute community.</p>
+          <ul class="project-features">
+            <li><i class="fas fa-check-circle"></i> Real-time content updates</li>
+            <li><i class="fas fa-check-circle"></i> Responsive design</li>
+            <li><i class="fas fa-check-circle"></i> Dynamic news feed</li>
+          </ul>
+          <div class="project-tech">
+            <span>Python</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>SQL</span>
+          </div>
+        </div>
+        <div class="project-card glass-card featured">
+          <div class="featured-badge"><i class="fas fa-star"></i> Featured</div>
+          <div class="project-card-top">
+            <div class="project-icon"><i class="fas fa-user-check"></i></div>
+            <div class="project-links">
+              <a href="#" class="proj-link" aria-label="View Project"><i class="fas fa-external-link-alt"></i></a>
+              <a href="#" class="proj-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Smart Attendance System</h3>
+          <p class="project-desc">An AI-powered face recognition attendance system that automates attendance marking with secure authentication and eliminates proxy attendance.</p>
+          <ul class="project-features">
+            <li><i class="fas fa-check-circle"></i> AI Face Recognition</li>
+            <li><i class="fas fa-check-circle"></i> Automatic attendance marking</li>
+            <li><i class="fas fa-check-circle"></i> Secure login & auth</li>
+            <li><i class="fas fa-check-circle"></i> Reduced proxy attendance</li>
+          </ul>
+          <div class="project-tech">
+            <span>Python</span><span>AI/ML</span><span>OpenCV</span><span>SQL</span>
+          </div>
+        </div>
+        <div class="project-card glass-card">
+          <div class="project-card-top">
+            <div class="project-icon"><i class="fas fa-shield-alt"></i></div>
+            <div class="project-links">
+              <a href="#" class="proj-link" aria-label="View Project"><i class="fas fa-external-link-alt"></i></a>
+              <a href="#" class="proj-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Women Safety Awareness</h3>
+          <p class="project-desc">A digital safety awareness project demonstrating SOS features and real-time location tracking to promote women's safety through technology.</p>
+          <ul class="project-features">
+            <li><i class="fas fa-check-circle"></i> SOS & location tracking</li>
+            <li><i class="fas fa-check-circle"></i> Safety awareness content</li>
+            <li><i class="fas fa-check-circle"></i> Digital safety practices</li>
+          </ul>
+          <div class="project-tech">
+            <span>Python</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section class="education" id="education">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">My Academic Journey</span>
+        <h2 class="section-title">Education</h2>
+        <div class="title-underline"></div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"><i class="fas fa-graduation-cap"></i></div>
+          <div class="timeline-card glass-card">
+            <div class="timeline-date">2023 – 2027</div>
+            <h3>B.Tech – Artificial Intelligence & Data Science</h3>
+            <p class="timeline-institution"><i class="fas fa-university"></i> N.B.K.R Institute of Science and Technology</p>
+            <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> Vidyanagar, Andhra Pradesh</p>
+            <div class="timeline-cgpa"><span class="cgpa-label">CGPA</span><span class="cgpa-value">7.5</span></div>
+            <div class="timeline-tags"><span>AI</span><span>Data Science</span><span>Python</span><span>Machine Learning</span></div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"><i class="fas fa-school"></i></div>
+          <div class="timeline-card glass-card">
+            <div class="timeline-date">2021 – 2023</div>
+            <h3>Intermediate (MPC)</h3>
+            <p class="timeline-institution"><i class="fas fa-school"></i> Sri Pragathi Junior College</p>
+            <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> Andhra Pradesh</p>
+            <div class="timeline-cgpa"><span class="cgpa-label">CGPA</span><span class="cgpa-value">9.1</span></div>
+            <div class="timeline-tags"><span>Mathematics</span><span>Physics</span><span>Chemistry</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications & Activities -->
+  <section class="certifications" id="certifications">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">Achievements & Activities</span>
+        <h2 class="section-title">Certifications &amp; <span class="gradient-text">Activities</span></h2>
+        <div class="title-underline"></div>
+      </div>
+      <div class="cert-grid">
+        <div class="cert-card glass-card">
+          <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+          <h3>NPTEL Certification</h3>
+          <p>Completed NPTEL online certification program, demonstrating commitment to continuous learning and academic excellence.</p>
+          <div class="cert-badge">Certified</div>
+        </div>
+        <div class="cert-card glass-card">
+          <div class="cert-icon"><i class="fas fa-microchip"></i></div>
+          <h3>IEEE Technical Event</h3>
+          <p>Active participant in IEEE technical events, engaging with the global community of engineers and technology innovators.</p>
+          <div class="cert-badge">Participant</div>
+        </div>
+        <div class="cert-card glass-card">
+          <div class="cert-icon"><i class="fas fa-users-cog"></i></div>
+          <h3>ISTE Member</h3>
+          <p>Active member of the Indian Society for Technical Education, contributing to technical culture and professional development.</p>
+          <div class="cert-badge">Active Member</div>
+        </div>
+        <div class="cert-card glass-card">
+          <div class="cert-icon"><i class="fas fa-trophy"></i></div>
+          <h3>Technical Quiz Organizer</h3>
+          <p>Organized and led a Technical Quiz Competition, showcasing leadership and technical knowledge within the campus community.</p>
+          <div class="cert-badge">Organizer</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Contact <span class="gradient-text">Me</span></h2>
+        <div class="title-underline"></div>
+        <p class="section-sub">Open for internships, collaborations, and exciting opportunities. Let's build something amazing together!</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item glass-card">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div class="contact-detail">
+              <span class="contact-label">Email</span>
+              <a href="mailto:gunnammamalli258@gmail.com" class="contact-value">gunnammamalli258@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item glass-card">
+            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+            <div class="contact-detail">
+              <span class="contact-label">Phone</span>
+              <a href="tel:+919849383197" class="contact-value">+91 9849383197</a>
+            </div>
+          </div>
+          <div class="contact-item glass-card">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="contact-detail">
+              <span class="contact-label">Location</span>
+              <span class="contact-value">Tirupati, Andhra Pradesh, India</span>
+            </div>
+          </div>
+          <div class="contact-item glass-card">
+            <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+            <div class="contact-detail">
+              <span class="contact-label">LinkedIn</span>
+              <a href="https://linkedin.com/in/gunnamma-malli-79021735a" target="_blank" class="contact-value">gunnamma-malli-79021735a</a>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form glass-card" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <div class="input-wrapper"><i class="fas fa-user"></i><input type="text" id="name" name="name" placeholder="John Doe" required /></div>
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <div class="input-wrapper"><i class="fas fa-envelope"></i><input type="email" id="email" name="email" placeholder="john@example.com" required /></div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <div class="input-wrapper"><i class="fas fa-tag"></i><input type="text" id="subject" name="subject" placeholder="Internship Opportunity" required /></div>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <div class="input-wrapper textarea-wrapper"><i class="fas fa-comment"></i><textarea id="message" name="message" rows="4" placeholder="Tell me about the opportunity..." required></textarea></div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full"><i class="fas fa-paper-plane"></i> Send Message</button>
+          <div class="form-status" id="formStatus"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-logo">GM<span class="logo-dot">.</span></div>
+      <p class="footer-tagline">Gunnamma Malli — Building the future, one line of code at a time.</p>
+      <div class="footer-socials">
+        <a href="https://linkedin.com/in/gunnamma-malli-79021735a" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:gunnammamalli258@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="tel:+919849383197" aria-label="Phone"><i class="fas fa-phone"></i></a>
+      </div>
+      <p class="footer-copy">&copy; 2024 Gunnamma Malli. Crafted with <i class="fas fa-heart" style="color:#e44d7b"></i> &amp; Code.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
